@@ -7,7 +7,7 @@ namespace VehicleRentalManagement_MainConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World");
             VehicleDAL da = new VehicleDAL();
             da.connectionTest();
         }
